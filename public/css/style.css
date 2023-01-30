@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: brown;
+}
+
+ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.item span{
+    transition: all .3s;
+    font-size: 1rem;
+}
+
+.item span:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.item span.fa-trash{
+    transition: all .4s;
+    font-size: 1rem;
+}
+
+.item span.fa-trash:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.buttonInput{
+    border-radius: 10px;
+    background-color:rgb(69, 199, 235);
+}
+
+.buttonInput:hover{
+    background-color:rgb(38, 146, 176);
+}
+
+.textInput{
+    border-radius: 10px;
+    padding-left: 7px;
+    background-color: rgb(163, 200, 232);
+}
